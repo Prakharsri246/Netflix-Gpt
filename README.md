@@ -4,6 +4,9 @@
  - Header 
  - Login Form
  - Sign Up Form
+ - Routing for App
+ - Form Validation
+ - useRef Hook
 
  # Features
 - Login /Sign Up
