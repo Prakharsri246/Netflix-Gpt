@@ -14,6 +14,8 @@
  - Bugfix: Sign up user , displayName and profile picture update
  - Bugfix: If the user is not logged in redirect to login 
  - Added hard-coded values to constant files
+ - Get data from TMDB
+ - Created Background Video 
 
  # Features
 - Login /Sign Up
