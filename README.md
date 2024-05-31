@@ -11,6 +11,9 @@
  - Authentication
  - Sign Up User
  - Created a Redux Store with userSlice
+ - Bugfix: Sign up user , displayName and profile picture update
+ - Bugfix: If the user is not logged in redirect to login 
+ - Added hard-coded values to constant files
 
  # Features
 - Login /Sign Up
