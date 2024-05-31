@@ -9,6 +9,8 @@
  - useRef Hook
  - Firebase config Setup
  - Authentication
+ - Sign Up User
+ - Created a Redux Store with userSlice
 
  # Features
 - Login /Sign Up
