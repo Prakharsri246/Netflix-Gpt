@@ -7,6 +7,8 @@
  - Routing for App
  - Form Validation
  - useRef Hook
+ - Firebase config Setup
+ - Authentication
 
  # Features
 - Login /Sign Up

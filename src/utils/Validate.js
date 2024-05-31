@@ -1,9 +1,13 @@
-export const  checkValidate=(username,password)=>{
+export const  checkValidate=(email,password)=>{
  
-    console.log("va;idate")
-    const emailValidate = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$/.test(username);
-    const passwordValidate= /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/.test(password);
-     if(!emailValidate) return "Email is not Valid";
-     if(!passwordValidate) return "Password is not valid ";
-     return null; 
+
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const isValid = emailPattern.test(email);
+    const passPattern=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}/;
+    const passwordValidate= passPattern.test(password);
+
+     if(isValid === false) return "Email is not Valid";
+     if(passwordValidate === false) return "Password is not valid " ;
+    
+    return null;
 }
